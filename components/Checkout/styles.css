@@ -1,0 +1,244 @@
+@font-face {
+    font-family: lato;
+    src: url(../../assets/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url(../../assets/font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latoBlack;
+    src: url(../../assets/font/Lato-Black.ttf);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    font-family: lato;
+    font-size: 14px;
+    color: #545454;
+    max-width: 500px;
+    flex: 1;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    box-shadow: 0px 1px 5px #DADADA;
+}
+
+.logo-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    z-index: 1;
+}
+
+.sec-w {
+    padding: 16px 16px 0 16px;
+}
+
+.sec-title {
+    font-size: 18px;
+    font-family: latoBold;
+}
+
+.sec-item-w {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 0 0 0;
+    flex-wrap: wrap;
+}
+
+.sec-item {
+    padding: 6px 10px;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+    margin: 0 12px 12px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-w {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #F1F1F2;
+}
+
+.item-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.item-des {
+    margin-left: 8px;
+}
+
+.item-img {
+    border-radius: 8px;
+    max-width: 20%;
+    height: auto;
+}
+
+.item-title {
+    font-size: 14px;
+    font-family: latoBold;
+    margin-bottom: 8px;
+}
+
+.item-price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price-disc-w {
+    background-color: #ED2939;
+    border-radius: 6px;
+    color: white;
+    padding: 4px 6px;
+    margin-right: 4px;
+    font-size: 10px;
+}
+
+.price-disc {
+    text-decoration: line-through;
+    color: #979797;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.price {
+    font-size: 14px;
+    font-family: latoBold;
+    color: #545454;
+}
+
+.item-action {
+    padding: 8px 0 14px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-remove {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.remove-img {
+    height: 16px;
+    margin-right: 4px;
+}
+
+.remove {
+    font-family: latoBold;
+    font-size: 10px;
+}
+
+.item-total {
+    border-radius: 4px;
+    font-size: 10px;
+    font-family: latoBold;
+    border: 1px solid #545454;
+    padding: 4px 12px;
+}
+
+.addon-w {
+    padding: 14px 16px;
+    border-top: 6px solid #F1F1F2;
+    border-bottom: 6px solid #F1F1F2;
+}
+
+.addon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-w {
+    /* border: 1px solid green */
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #979797;
+    border-radius: 4px;
+}
+
+.addon-desc {
+    margin-left: 16px;
+    /* border: 1px solid red */
+}
+
+.addon-title {
+    font-family: latoBold;
+    font-size: 12px;
+}
+
+.addon-sub {
+    font-size: 10px;
+}
+
+
+.submit-w {
+    padding: 12px 16px 16px 16px;
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.submit-btn {
+    background-color: #4D8C1F;
+    color: white;
+    width: 100%;
+    border-radius: 6px;
+    font-family: latoBold;
+    font-size: 16px;
+    padding: 8px 24px;
+}
+
+.submit-desc {
+    font-size: 10px;
+}
+
+.submit-price {
+    font-size: 16px;
+    font-family: latoBold;
+}
