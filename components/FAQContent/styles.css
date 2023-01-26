@@ -1,0 +1,88 @@
+@font-face {
+    font-family: lato;
+    src: url(../../assets/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: latoBold;
+    src: url(../../assets/font/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: latoBlack;
+    src: url(../../assets/font/Lato-Black.ttf);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    font-family: lato;
+    font-size: 14px;
+    color: #545454;
+    max-width: 500px;
+    flex: 1;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    box-shadow: 0px 1px 5px #DADADA;
+}
+
+.header-title {
+    font-family: latoBold;
+    font-size: 16px;
+}
+
+.top {
+    padding: 24px 16px 6px 16px;
+}
+
+.h-search-w {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 10px;
+    border: 1px solid #DADADA;
+    border-radius: 6px;
+    max-height: 30px;
+    flex: 1 1 auto;
+    background-color: white;
+}
+
+.h-magni {
+    height: 14px;
+    margin-right: 8px;
+}
+
+.h-search {
+    width: 100%;
+}
+
+.h-search:focus {
+    outline: none;
+}
+
+.content-w {
+    padding: 16px;
+}
+
+.content-title {
+    font-size: 18px;
+    font-family: latoBold;
+    margin-bottom: 16px;
+}
+
+.content-main {}
